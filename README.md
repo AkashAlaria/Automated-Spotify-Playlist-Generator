@@ -12,10 +12,8 @@ Pick an ‘App name’ and ‘App description’ of your choice and mark the che
 
 After creation, you see your ‘Client Id’ and you can click on ‘Show client secret` to unhide your ’Client secret’.
 
-Use your ‘Client id’ and ‘Client secret’ to retrieve a token from the Spotify API. The function get_spotify_api_token() performs all necessary steps with your ‘Client id’ and ‘Client secret’ to retrieve a token. Consider to assign this character string to a variable named ‘my_token’, which is the default value for all spotify functions that are in need of a token.
+Use your ‘Client id’ and ‘Client secret’ to retrieve a token from the Spotify API. The function get_spotify_api_token() performs all necessary steps with your ‘Client id’ and ‘Client secret’ to retrieve a token. 
 
-Create a folder named "template" in the same location as code file for executing
-
-Run the file
+Run the file using streamlit run your_script.py
 
 Add playlist according to your choices!!
