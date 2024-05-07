@@ -2,9 +2,6 @@ import streamlit as st
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-client_id = 'c69900443e754f59a83f7d7a1baa8683'
-client_secret = 'd256cf44440b4d49af6de1a14d1f71ea'
-
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id,
                                                client_secret=client_secret,
                                                redirect_uri='http://localhost:8080',
